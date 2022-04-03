@@ -14,10 +14,10 @@ class MainActivity : AppCompatActivity() {
         ed_weight
     }
 
-    fun bmi( view: View) {
+    fun bmi(view: View) {
         val weight = ed_weight.text.toString().toFloat()
         val height = ed_height.text.toString().toFloat()
         val bmi = weight / ( height * height )
-        Log.d("BMI", bmi.toString() )
+        Log.d("BMI" , bmi.toString() )
     }
 }
